@@ -1,0 +1,71 @@
+<html>
+    <title>bill</title>
+    <head>
+        <style>
+            body
+            {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: palevioletred;
+            }
+            div
+            {
+                background:beige;
+                position: absolute;
+                top: 20%;
+                left: 30%;
+                width: 540px;
+                padding: 50px;
+                text-align: center;
+                border-radius: 40px;
+            }
+            input[type="text"],[type="number"]
+            {
+                width: 260px;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+            }
+            input[type="submit"],[type="reset"]
+            {
+                width: 100px;
+                height: 50px;
+                border-radius: 15px;
+                color: bisque;
+                background-color: black;
+            }
+            input[type="submit"]:hover,[type="reset"]:hover
+            {
+                color: greenyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Items Purchase</h1>
+            <form>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>rate</th>
+                </tr>
+                <td><input type="text" name="p1"></td>
+                <td><input type="number" name="rate1"></td>
+                <tr></tr>
+                <td><input type="text" name="p2"></td>
+                <td><input type="number" name="rate2"></td>
+                <tr></tr>
+                <td><input type="text" name="p1"></td>
+                <td><input type="number" name="rate1"></td>
+                <tr></tr>
+                <td><input type="text" name="p1"></td>
+                <td><input type="number" name="rate1"></td>
+                <tr></tr>
+                <tr align="center">
+                    <td><input type="submit" value="Buy"</td>
+                    <td><input type="reset" value="delete" </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>
