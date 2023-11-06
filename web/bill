@@ -54,11 +54,11 @@
                 <td><input type="text" name="p2"></td>
                 <td><input type="number" name="rate2"></td>
                 <tr></tr>
-                <td><input type="text" name="p1"></td>
-                <td><input type="number" name="rate1"></td>
+                <td><input type="text" name="p3"></td>
+                <td><input type="number" name="rate3"></td>
                 <tr></tr>
-                <td><input type="text" name="p1"></td>
-                <td><input type="number" name="rate1"></td>
+                <td><input type="text" name="p4"></td>
+                <td><input type="number" name="rate4"></td>
                 <tr></tr>
                 <tr align="center">
                     <td><input type="submit" value="Buy"</td>
