@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Reg</title>
+        <style>
+            body{
+                background-color: bisque;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            div{
+                
+                background-color: wheat;
+                position :absolute;
+                top: 15%;
+                left: 24%;
+                padding: 60px;
+                width: fit-content;
+                height: fit-content;
+                border-radius: 30px;
+
+            }
+            input[type="text"],[type="number"]{
+                width: 200px;
+                height: 50px;
+            }
+            input[type="submit"],[type="reset"]{
+                width: 70px;
+                height: 30px;
+                border-radius: 10px;
+                color: wheat;
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1><center>REGISTRATION FORM</center></h1>
+            <form action="webop.php" method="post">
+                <table>
+                    <tr>
+                        <td><label for="firstname">First Name </label></td>
+                        <td><input type="text" name="firstname" placeholder="Enter your first name"></td><br>
+                        <tr></tr>
+
+                        <td><label for="lastname">Last Name </label></td>
+                        <td><input type="text" name="lastname" placeholder="Enter your last name"></td><br>
+                        <tr></tr>
+
+                        <td><label for="course">course </label></td>
+                        <td><input type="text" name="course" placeholder="Enter the course you pursue"></td><br>
+                        <tr></tr>
+
+                        <td><label for="dob">Dob</label></td>
+                        <td><input type="date" name="dob"></td>
+                        <tr></tr>
+
+                        <td><lable for="address">Address</lable></td>
+                        <td><input type="text" name="address" placeholder="enter your address"></td>
+                        <tr></tr>
+
+                        <td><label for="number">Phone Number</label></td>
+                        <td><input type="number" name="number" placeholder="enter 10-digit number"></td>
+                        <tr></tr>
+
+                        <td><label for="password">password</label></td>
+                        <td><input type="password" name="password" placeholder="Enter a strong password"></td>
+                        <tr></tr>
+                        <tr></tr>
+
+                        <td align="center"><input type="submit" name="submit"></td>
+                        <td align="center"><input type="reset" name="clear"></td>
+
+
+            
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
