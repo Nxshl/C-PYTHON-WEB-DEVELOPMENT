@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>ticket</title>
+        <style>
+            body{
+                background-color: darkkhaki;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            div{
+                background-color: darksalmon;
+                position :absolute;
+                height: fit-content;
+                width: fit-content;
+                top: 15%;
+                left: 23%;
+                padding: 50px;
+                border-radius: 30px;
+            }
+            input[value="text"],[value="number"][value="email"]{
+                height: 150px;
+                width: 80px;
+            }
+            input[value="submit"],[value="reset"]{
+                height:50px;
+                width:20px;
+                background-color: green;
+                color: antiquewhite;
+            }
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <div>
+        <h1><center>Hello Bookings!</center></h1>
+        <h2><center>Book Your favorite movies with ease!</center></h2>
+
+        <form id="f1" onsubmit="return verify()">
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input id="name" placeholder="Please enter your name" type="text"></td>
+                    <tr></tr>
+
+                    <td>Phone Number:</td>
+                    <td><input type="number" id="number" placeholder="enter your 10-digit number"></td>
+                    <tr></tr>
+
+                    <td>Email</td>
+                    <td><input type="email" id="mail" placeholder="enter your email"></td>
+
+
+
+                    <tr>
+                    <td>Select a currently running movies:</td>
+                    <td><select name="moviename" id="mname">
+                        <option value="zahari">Zahari's love story</option>
+                        <option value="rasheed">Japan Rasheed</option>
+                        <option value="gym">Gym Rats</option>
+                        </select>
+                    </td>
+                    <tr></tr>
+
+
+                    
+                </tr>
+            </table>
+                    <input type="submit" value="Done">
+                    <input type="reset" value="clear">
+        </form>
+        </div>
+    </body>
+</html>
