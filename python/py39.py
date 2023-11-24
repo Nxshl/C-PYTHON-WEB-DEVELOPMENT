@@ -1,0 +1,13 @@
+print("A\n")
+a=int(input("Enter 1st numbers:"))
+b=int(input("Enter 2st numbers:"))
+large=lambda a,b:max(a,b)
+print(large(a,b))
+print("B\n")
+a=int((input("Enter the number:")))
+Check=lambda a:not a%5
+print(Check(a))
+print("C\n")
+x=input("Enter the strings:")
+l=list(filter(lambda x:len(x)>5,x.split()))
+print("Strings with length>5:",l)

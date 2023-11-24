@@ -1,0 +1,5 @@
+s=input("Enter the list").split()
+l=list(s)
+l.sort()
+print(l)
+print("Second smallest element=",l[1])

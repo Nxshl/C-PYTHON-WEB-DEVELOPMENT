@@ -1,0 +1,5 @@
+a=input("Enter numbers seperated by space:")
+a=list(map(int,a.split(' ')))
+m=max(a)
+n=min(a)
+print('Maximum=',m,'Minimum=',n)
