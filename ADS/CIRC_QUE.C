@@ -98,7 +98,7 @@ clrscr();
  printf("Enter the size of the queue:");
  scanf("%d",&n);
  while(1){
-  printf("\nEnter the option\n 1.insert\n 2.delete\n 3.display\n 4.search\n 5.exit\n");
+  printf("\nEnter an option\n 1.insert\n 2.delete\n 3.display\n 4.search\n 5.exit\n");
   scanf("%d",&c);
   switch(c){
     case 1:insert();
